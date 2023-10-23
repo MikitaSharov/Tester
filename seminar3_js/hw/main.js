@@ -2,7 +2,7 @@
 Необходимо продемонстрировать работу функции: у пользователя запросить его имя и вызвать функцию greeting, передав туда полученное от пользователя значение. */
 
 const userName = prompt('Enter your name: ');
-alert(greeting(userName));
+greeting(userName);
 function greeting(name) {
-    return name;
+    console.log(name);
 }
